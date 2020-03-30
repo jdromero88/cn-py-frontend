@@ -1,9 +1,15 @@
 import React from 'react'
+import { Route, Switch } from 'react-router-dom'
+import Inicio from '../components/Inicio'
+import Acerca from '../components/Acerca'
 
 export default function Content(){
     return(
       <>
-        <h1>here goes the content</h1>
+      <Switch>
+        <Route exact path='/inicio' component={ Inicio } />
+        <Route exact path='/acerca' component={ Acerca } />
+      </Switch>
       </>
     )
 }
