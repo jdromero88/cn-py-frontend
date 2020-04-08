@@ -1,0 +1,8 @@
+export const FETCHED_PARTES = 'FETCHED_PARTES'
+export const CREATE_PARTE = 'CREATE_PARTE'
+export const EDIT_PARTE = 'EDIT_PARTE'
+export const DELETE_PARTE = 'DELETE_PARTE'
+export const FETCHED_TITULOS = 'FETCHED_TITULOS'
+export const CREATE_TITULO = 'CREATE_TITULO'
+export const EDIT_TITULO = 'EDIT_TITULO'
+export const DELETE_TITULO = 'DELETE_TITULO'
